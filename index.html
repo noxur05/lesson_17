@@ -23,20 +23,39 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarmenu">
                     <div class="col-lg-6 offset-lg-3">
-                        <ul class="navbar-nav gx-5">
-                            <li class="navbar-item">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
                                 <a class="nav-link link-light" href="#">Home</a>
                             </li>
-                            <li class="navbar-item">
+                            <li class="nav-item">
                                 <a class="nav-link link-light" href="#">About</a>
                             </li>
-                            <li class="navbar-item">
+                            <li class="nav-item">
                                 <a class="nav-link link-light" href="#">Chef</a>
                             </li>
-                            <li class="navbar-item">
-                                <a class="nav-link link-light" href="#">Menu</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link-light" href="#" data-bs-toggle="dropdown">Menu</a>
+                                <div class="dropdown-menu dropdown-menu-end rounded" id="dropdown-body">
+                                    <a href="#" class="dropdown-item link-light">
+                                      <i class="bi-egg-fried"></i>
+                                      <span>Breakfast</span>
+                                    </a>
+                                    <a href="#" class="dropdown-item link-light">
+                                      <i class="bi-egg-fried"></i>
+                                      <span>Lunch</span>
+                                    </a>
+                                    <a href="#" class="dropdown-item link-light">
+                                        <i class="bi-egg-fried"></i>
+                                        <span>Dinner</span>
+                                      </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="#" class="dropdown-item link-light">
+                                      <i class="bi-egg-fried"></i>
+                                      <span>Brunch</span>
+                                    </a>
+                                  </div>
                             </li>
-                            <li class="navbar-item">
+                            <li class="nav-item">
                                 <a class="nav-link link-light" href="#">Contact</a>
                             </li>
                         </ul>
@@ -113,21 +132,21 @@
                 <div class="small text-secondary">THEY ARE NICE & FRIENDLY</div>
             </div>
             <div class="row my-5 py-5 ">
-                <div class="col-6 col-sm-4 g-md-3">
+                <div class="col-6 col-sm-4 g-1 g-md-3">
                     <div class="text-center">
                         <div><img class="w-100" src="img/team-image1.jpg" alt=""></div>
                         <div class="h4 fw-bold">New Catherine</div>
                         <div class="text-secondary small">KITCHEN OFFICER</div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-4 g-md-3">
+                <div class="col-6 col-sm-4 g-1 g-md-3">
                     <div class="text-center">
                         <div><img class="w-100" src="img/team-image2.jpg" alt=""></div>
                         <div class="h4 fw-bold">Lindsay Perlen</div>
                         <div class="text-secondary small">OWNER & MANAGER</div>
                     </div>
                 </div>
-                <div class="col-6 col-sm-4 g-md-3">
+                <div class="col-6 col-sm-4 g-1 g-md-3">
                     <div class="text-center">
                         <div><img class="w-100" src="img/team-image3.jpg" alt=""></div>
                         <div class="h4 fw-bold">Isabella Grace</div>
@@ -164,7 +183,7 @@
     </main>
 
     <footer class="container-fluid bg-image2 text-light text-center p-0">
-        <div class="height-450 bg-black-50 py-5 m-0 w-100">
+        <div class="height-450 bg-black-50 py-5 m-0">
             <div id="carousel-slider" class="carousel slide h-100 container-sm">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active"
