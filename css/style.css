@@ -5,3 +5,6 @@
 .vh-50{
     height: 50vh;
 }
+.max-height-900{
+    max-height: 600px;
+}
