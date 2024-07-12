@@ -8,3 +8,7 @@
 .max-height-900{
     max-height: 600px;
 }
+
+.navbar-toggler-icon{
+    color: white;
+}
